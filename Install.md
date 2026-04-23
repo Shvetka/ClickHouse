@@ -1,6 +1,8 @@
 Установлен Clickhouse  
 [Скрин работающего ClickHouse](scsh1.png)  
-Добавлен конфигурационный файл для тестирования настроек(пробую сделать хуже чем было) /etc/clickhouse-server/config.d/memory.xml  
+Добавлен конфигурационный файл для тестирования настроек(пробую сделать хуже чем было)  
+/etc/clickhouse-server/config.d/memory.xml  
+  
 <?xml version="1.0"?>  
 <clickhouse>  
   <listen_host>::</listen_host>  
